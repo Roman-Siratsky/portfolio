@@ -99,6 +99,9 @@ body {
 }
 
 .link-container {
+  @media screen and(max-width: 1600px) {
+    display: none;
+  }
   margin-right: auto;
   margin-left: auto;
   width: 1270px;
@@ -106,9 +109,6 @@ body {
   justify-content: space-between;
   text-decoration: none;
   padding-bottom: 10px;
-  & > .repo-link:hover {
-    padding-bottom: 8px;
-  }
   .repo-link {
     text-decoration: none;
     font-weight: bold;

@@ -137,8 +137,10 @@ body {
   padding-bottom: 10px;
 }
 
-.link-container > .repo-link:hover {
-  padding-bottom: 8px;
+@media screen and (max-width: 1600px) {
+  .link-container {
+    display: none;
+  }
 }
 
 .link-container .repo-link {
